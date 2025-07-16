@@ -15,7 +15,7 @@ This project aims to **predict high-risk tumor patients** using a mix of **gene 
 * **Source**: [xenabrowser.net](https://xenabrowser.net/)
 * **Samples**: 5,010 patient records
 * **Target**: `High_Risk_Flag` — 1 for high-risk, 0 for low-risk
-* **Features**:
+* **Important Features**:
 
   * `gene_A_zscore` (normalized gene expression)
   * `gene_B_expr`, `gene_C_expr_cleaned`
