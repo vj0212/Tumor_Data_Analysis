@@ -233,6 +233,8 @@ A lightweight frontend built using **Streamlit** for clinical use:
 * Validates input format and handles missing columns
 
 > App is responsive, runs locally, and deployable via Streamlit Cloud or Docker.
+> ![Streamlit App Screenshot](./Streamlit.jpeg)
+
 
 ---
 
