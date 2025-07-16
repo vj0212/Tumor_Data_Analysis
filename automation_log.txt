@@ -1,0 +1,27 @@
+ 
+====== RUN STARTED at 16-07-2025  2:05:35.17 ====== 
+[INFO] Loaded CSV with 5010 rows and 12 columns.
+[INFO] Data loaded into MySQL table 'cleaned_biological_data'
+[INFO] Running dbt models...
+[INFO] dbt output:
+20:35:41  Running with dbt=1.7.19
+20:35:41  Registered adapter: mysql=1.7.0
+20:35:41  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.bio_dbt_project.example
+20:35:41  Found 1 model, 1 source, 0 exposures, 0 metrics, 375 macros, 0 groups, 0 semantic models
+20:35:41  
+20:35:42  Concurrency: 1 threads (target='dev')
+20:35:42  
+20:35:42  1 of 1 START sql view model bio_pipeline.gene_summary .......................... [RUN]
+20:35:42  1 of 1 OK created sql view model bio_pipeline.gene_summary ..................... [SUCCESS 0 in 0.15s]
+20:35:42  
+20:35:42  Finished running 1 view model in 0 hours 0 minutes and 0.28 seconds (0.28s).
+20:35:42  
+20:35:42  Completed successfully
+20:35:42  
+20:35:42  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+
+[SUCCESS] Pipeline completed at 2025-07-16 02:05:44
+====== RUN COMPLETED at 16-07-2025  2:05:44.19 ====== 
+ 
